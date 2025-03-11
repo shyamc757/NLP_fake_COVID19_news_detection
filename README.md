@@ -31,8 +31,8 @@ Run the **load_data.py** file. Simply loads the corona_fake.csv file into a pand
 #### ii) Pre-processing text
 Run the **text_processing.py** file. Contains functions to tokenize, tag, lemmatize, remove stopwords, clean (removal of numbers, emojis, punctuations, hyperlinks, etc) the text sent as argument.
 
-### 7) Vectorization
+#### iii) Vectorization
 Run the **count_vectorizer.py** or **tfidf_vectorizer.py** for the numerical embeddings. Contain respective functions which take preprocessed textual data and ngram combination as inputs and return a vectorized form (embeddings).
 
-### 8) Modelling
+#### iv) Modelling
 Run the **modelling.py** file. Contains the Logistic Regression modelling code to return the accuracies after classification having taken numerical data as input. 
