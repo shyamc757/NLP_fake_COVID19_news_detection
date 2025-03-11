@@ -1,4 +1,3 @@
-from load_data import data
 import nltk
 import cleantext
 import emoji
