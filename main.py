@@ -1,5 +1,7 @@
 from load_data import data
 from text_processing import tokenize_text, tag_text, lemmatize_text, remove_stopwords, clean_text
+from count_vectorizer import return_count_embeddings
+from tfidf_vectorizer import return_tfidf_embeddings
 
 
 def main():
